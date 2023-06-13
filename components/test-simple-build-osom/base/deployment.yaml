@@ -25,7 +25,7 @@ spec:
         app.kubernetes.io/instance: test-simple-build-osom
     spec:
       containers:
-      - image: hello-world:latest
+      - image: quay.io/tnevrlka-test/build-e2e-oble-tenant/build-suite-test-application-xbjv/test-simple-build-osom@sha256:5d2c576bc3c3a0d0f4c3f97240ae6c95046aa4c4471207d29fd3d7ed72fe4fb8
         name: my-nginx
         ports:
         - containerPort: 8080
